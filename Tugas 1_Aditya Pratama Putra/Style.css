@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+    font-family: "Manrope", serif;
+}
+.kategori{
+    text-align: center;
+}
+h1{
+ text-align: center;
+ font-size: 2.5rem;
+ color:rgb(18, 18, 117);
+}
+.nama{
+    text-align: center;
+
+}
+div{
+    margin-left: 490px;
+}
+ .isi{
+    margin-right: 400px;
+ }
+
+ .es{
+    font-size: 30px;
+    color:rgb(18, 18, 117);
+ }
+
+ .ol{
+    color: rgb(51, 51, 243);
+ }

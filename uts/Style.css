@@ -1,0 +1,108 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+.navbar-hehe {
+  background-color: #007bff;
+  padding: 15px;
+  /* Menggunakan flexbox agar item navigasi rata kiri */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-hehe label {
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.navbar-hehe label:hover {
+  text-decoration: underline;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+.section {
+  display: none;
+  text-align: center;
+  background: white;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+input[name="nav"] {
+  display: none;
+}
+#beranda:checked ~ .container #beranda-section,
+#portfolio:checked ~ .container #portfolio-section,
+#contact:checked ~ .container #contact-section {
+  display: block;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.perkenalan {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+.portfolio-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.portfolio-item {
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.portfolio-item:hover {
+  transform: scale(1.05);
+}
+.portfolio-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.portfolio-desc {
+  padding: 15px;
+}
+.portfolio-desc h3 {
+  margin: 0;
+  font-size: 20px;
+}
+.portfolio-desc p {
+  font-size: 14px;
+  color: #666;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #0056b3;
+}

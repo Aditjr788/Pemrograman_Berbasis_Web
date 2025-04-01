@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Sederhana</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <input type="radio" id="beranda" name="nav" checked />
+    <input type="radio" id="portfolio" name="nav" />
+    <input type="radio" id="contact" name="nav" />
+
+    <div class="navbar-hehe">
+      <label for="beranda">Beranda</label>
+      <label for="portfolio">Portfolio</label>
+      <label for="contact">Contact</label>
+    </div>
+
+    <div class="container">
+      <div id="beranda-section" class="section">
+        <h2>Selamat Datang!</h2>
+        <img
+          src="/IMG-20250109-WA0005.jpg"
+          alt="Foto Profil"
+          class="profile-img"
+        />
+        <div class="perkenalan">
+          <p><strong>Halo, saya Aditya Pratama Putra!</strong></p>
+          <p>
+            Saya seorang mahasiswa semester 4 dengan minat di bidang
+            <strong>pengembangan web</strong> dan <strong>desain UI/UX</strong>.
+            Saya suka menciptakan pengalaman digital yang menarik, fungsional,
+            dan mudah digunakan.
+          </p>
+          <p>
+            <strong>Tanggal Lahir:</strong> 17 Januari 2005<br />
+            <strong>Asal:</strong> Jakarta
+          </p>
+        </div>
+      </div>
+
+      <div id="portfolio-section" class="section">
+        <h2>Portfolio</h2>
+        <p>Berikut adalah beberapa proyek yang telah saya kerjakan.</p>
+        <div class="portfolio-grid">
+          <div class="portfolio-item">
+            <img src="/Screenshot 2025-04-01 235139.png" alt="Proyek 1" />
+            <div class="portfolio-desc">
+              <h3>Galeri Sederhana</h3>
+              <p>Proyek ini adalah galeri sederhana.</p>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img src="/Screenshot 2025-04-01 235210.png" alt="Proyek 2" />
+            <div class="portfolio-desc">
+              <h3>Website dengan Navbar</h3>
+              <p>
+                Membuat website sederhana dengan navigasi interaktif menggunakan
+                Bootstrap.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact-section" class="section">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> aditjr788@gmail.com</p>
+        <p><strong>Telepon:</strong> 081290011957</p>
+        <label for="beranda" class="btn">Kembali ke Beranda</label>
+      </div>
+    </div>
+  </body>
+</html>
